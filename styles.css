@@ -1,2 +1,65 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+html {
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  border: 10px solid lightblue;
+}
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: 10px dotted skyblue;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+ol li {
+  padding: 10px;
+  background-color: grey;
+}
+
+ol li:nth-child(3) {
+  background-color: green;
+}
+
+ol li:nth-child(5) {
+  background-color: green;
+}
+
+a[title]:hover {
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: yellow;
+}
+
+li a:active {
+  color: red;
+}
